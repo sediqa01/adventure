@@ -1,12 +1,15 @@
-import './App.css';
-import Main from './components/Main';
-import NavBar from './components/NavBar';
+import '../src/style/index.css';
+import Meme from './components/Meme';
+import Nav from './components/Nav';
+
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar /> 
-      <Main />
+     <Nav />
+     <Meme />
+  
     </div>
   );
 }
